@@ -36,7 +36,9 @@ jobs:
       - name: Upload artifact 📡
         uses: actions/upload-pages-artifact@v3
         with:
-          path: ./out
+        path: ./out
+        name: node-app
+        path: next.zip
 
   deploy:
     environment:
