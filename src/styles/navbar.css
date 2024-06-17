@@ -1,0 +1,21 @@
+
+.navContainer{
+    width: 100wv;
+    height: 6%;
+    background-color: var(--primary-color);
+    color: var(--font-color);
+    padding: 6px 12px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navList{
+    display: flex;
+    gap: 24px;
+    list-style: none;
+}
+
+.navList > * {
+    cursor: pointer;
+}

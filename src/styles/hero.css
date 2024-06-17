@@ -1,0 +1,45 @@
+
+.heroContainer{
+    height: 100%;
+    width: 100%;
+    background-image: url("../../public/background.svg");
+    padding: 5em 5em;
+}
+
+h1{
+    font-size: 6em;
+}
+
+h2{
+    font-size: 3em;
+}
+
+span{
+    color: var(--tertiary-color);
+}
+
+.circle{
+    height: 1em;
+    width: 1em;
+    border-radius: 50%;
+    border: 7px solid var(--secondary-color);
+}
+
+.streak{
+    width: 0.5em;
+    height: 14em;
+    background-color: var(--secondary-color);
+    border-radius: 0 0 100% 100%;
+}
+
+.nodeContainer{
+    width: 5em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: -4px;
+}
+
+.heroHeadingContainer{
+    display: flex;
+}
