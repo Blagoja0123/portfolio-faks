@@ -1,0 +1,17 @@
+
+.eduContainer{
+    width: 100%;
+    height: fit-content;
+}
+
+.contentWrapper{
+    margin: 2em 15%;
+}
+
+.eduHeading{
+    font-size: 32px;
+}
+
+.eduText{
+    font-size: 24px;
+}

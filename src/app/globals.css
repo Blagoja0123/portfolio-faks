@@ -10,8 +10,28 @@
   padding: 0;
 
   color: var(--font-color);
+  background-color: var(--primary-color);
+  box-sizing: border-box;
+}
+
+body{
+  box-sizing: border-box;
+  width: 100%;
 }
 
 main{
-  height: 100vh;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.pre{
+  opacity: 0;
+  transform: translate(0, 10vh);
+  transition: all 1s;
+}
+
+.pre.visible{
+  opacity: 1;
+  transform: translate(0, 0);
 }

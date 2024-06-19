@@ -1,0 +1,74 @@
+
+.flex-item {
+    width: 14rem;
+    height: 19rem; 
+    color: white; 
+    position: relative;
+    border: 1px solid #ffffff;
+}
+.item-content {
+    height: 100%; 
+    width: 100%; 
+    padding: 1rem; 
+    background-color: var(--primary-color); 
+    position: relative; 
+    border-width: 2px; 
+    display: flex; 
+    flex-direction: column;
+}
+.font-bold {
+    font-weight: bold; 
+    margin-bottom: 0.5rem;
+}
+.flex-grow {
+    flex-grow: 1;
+    margin-bottom: 0.5rem; 
+}
+
+.flex{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+}
+
+.skillsContainer {
+    min-height: 100vh;
+    display: grid;
+    place-items: center;
+    background: var(--primary-color);
+}
+
+.item:hover {
+    --expand: 1;
+}
+
+.item:before,
+.item:after {
+    content: '';
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background: var(--primary-color);
+    border: 2px solid white;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
+
+.item:after {
+    transform: translate(calc(var(--expand) * -2%), calc(var(--expand) * -2%));
+    transition: transform 0.2s;
+}
+
+.item-content {
+    transition: transform 0.2s;
+    transform: translate(calc(var(--expand) * -4%), calc(var(--expand) * -4%));
+    border: 1px solid white;
+}
+
+a {
+    color: var(--font-color);
+}
+

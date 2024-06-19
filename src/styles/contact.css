@@ -1,0 +1,57 @@
+
+
+.contactSection{
+    width: 100%;
+    height: fit-content;
+}
+
+.contactWrapper{
+    margin: 2em 15%;
+}
+
+.contactCardsWrapper{
+    margin-top: 5rem;
+    display: flex;
+    list-style: none;
+    gap: 7rem;
+}
+
+.contactCardsItem{
+    height: 13rem;
+    width: 20rem;
+    background-color: var(--secondary-color);
+    border-radius: 12px;
+    padding: 8px;
+    box-shadow: rgba(90,114,160, 0.4) 5px 5px, rgba(90,114,160, 0.3) 10px 10px, rgba(90,114,160, 0.2) 15px 15px, rgba(90,114,160, 0.1) 20px 20px, rgba(90,114,160, 0.05) 25px 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contactCardsItem > span{
+    font-size: 100px;
+}
+
+.contactCardsItem > *{
+    cursor: pointer;
+}
+
+#linkedIn{
+    width: 75px;
+    height: 75px;
+    background-image: url("../../public/linkedin.svg");
+    background-size: contain;
+    background-color: transparent;
+    background-repeat: no-repeat;
+    color: var(--font-color);
+
+}
+#gitHub{
+    width: 75px;
+    height: 75px;
+    background-image: url("../../public/github.svg");
+    background-color: transparent;
+    background-repeat: no-repeat;
+    background-size: contain;
+    
+}

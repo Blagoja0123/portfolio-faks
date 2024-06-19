@@ -5,14 +5,15 @@ const Navbar = () => {
   return (
     <nav className="navContainer">
         <div>
-          <span class="material-symbols-outlined">
+          <span className="material-symbols-outlined">
             psychology
           </span>
         </div>
         <ul className="navList">
-          <li><a href=""></a>ABOUT</li>
-          <li><a href=""></a>EDUCATION</li>
-          <li><a href=""></a>CONTACT</li>
+          <li><a href="#about">ABOUT</a></li>
+          <li><a href="#education">EDUCATION</a></li>
+          <li><a href="#projects">PROJECTS</a></li>
+          <li><a href="#contact">CONTACT</a></li>
         </ul>
     </nav>
   )

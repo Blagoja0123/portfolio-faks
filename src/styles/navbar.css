@@ -1,13 +1,17 @@
 
 .navContainer{
-    width: 100wv;
-    height: 6%;
+    position: sticky;
+    top: 0;
+    width: 100%;
+    height: 8vh;
     background-color: var(--primary-color);
     color: var(--font-color);
     padding: 6px 12px;
     display: flex;
     justify-content: space-between;
     align-items: center;
+    border-bottom: 1px solid var(--tertiary-color);
+    z-index: 999;
 }
 
 .navList{
@@ -16,6 +20,8 @@
     list-style: none;
 }
 
-.navList > * {
+.navList > li > * {
     cursor: pointer;
+    text-decoration: none;
+    color: var(--font-color);
 }

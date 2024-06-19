@@ -1,0 +1,17 @@
+
+.bioContainer{
+    width: 100%;
+    height: 100vh;
+}
+
+.contentWrapper{
+    margin: 2em 15%;
+}
+
+.bioHeading{
+    font-size: 32px;
+}
+
+.bioText{
+    font-size: 24px;
+}
