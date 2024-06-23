@@ -55,3 +55,21 @@ h2{
 .heroHeadingContainer *:not(.streak){
     background-color: transparent;
 }
+
+@keyframes floatIn {
+    0% {
+      transform: translateY(100px);
+      opacity: 0;
+    }
+    100% {
+      transform: translateY(0);
+      opacity: 1;
+    }
+  }
+  @media (prefers-reduced-motion: no-preference) {
+    .image-animation {
+      animation: enter-animation 0.8s 1;
+    }
+  
+  
+  }

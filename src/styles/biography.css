@@ -1,7 +1,11 @@
 
 .bioContainer{
     width: 100%;
-    height: 100vh;
+    height: 80vh;
+    opacity: 0; 
+    transform: translateY(20px); 
+    transition: opacity 1s ease-in, transform 1s ease-in;
+    margin-bottom: 40px;
 }
 
 .contentWrapper{
@@ -15,3 +19,8 @@
 .bioText{
     font-size: 24px;
 }
+
+.floatIn {
+    opacity: 1; 
+    transform: translateY(0);
+  }

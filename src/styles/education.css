@@ -1,7 +1,8 @@
 
 .eduContainer{
     width: 100%;
-    height: fit-content;
+    height: 60vh;
+    margin-bottom: 40px;
 }
 
 .contentWrapper{

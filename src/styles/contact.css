@@ -35,6 +35,12 @@
 .contactCardsItem > *{
     cursor: pointer;
 }
+.contactCardsItem > a{
+    display: block;
+    text-decoration: none;
+    font-size: 80px;
+}
+
 
 #linkedIn{
     width: 75px;
@@ -47,6 +53,7 @@
 
 }
 #gitHub{
+    display: block;
     width: 75px;
     height: 75px;
     background-image: url("../../public/github.svg");

@@ -10,10 +10,10 @@ const Navbar = () => {
           </span>
         </div>
         <ul className="navList">
-          <li><a href="#about">ABOUT</a></li>
-          <li><a href="#education">EDUCATION</a></li>
-          <li><a href="#projects">PROJECTS</a></li>
-          <li><a href="#contact">CONTACT</a></li>
+          <li><a href="#about">ЗА МЕНЕ</a></li>
+          <li><a href="#education">ОБРАЗОВАНИЕ</a></li>
+          <li><a href="#projects">ПРОЕКТИ</a></li>
+          <li><a href="#contact">КОНТАКТ</a></li>
         </ul>
     </nav>
   )
